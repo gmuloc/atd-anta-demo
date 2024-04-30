@@ -8,7 +8,7 @@ mgmt:
 topology:
   kinds:
     ceos:
-      image: arista/ceos:${EOS_VERSION:=4.28.3M}
+      image: arista/ceos:${EOS_VERSION:=4.32.0F}
   nodes:
     spine1:
       kind: ceos
